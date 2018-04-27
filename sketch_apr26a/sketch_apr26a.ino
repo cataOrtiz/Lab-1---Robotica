@@ -35,3 +35,16 @@ void mover_Vertical(int angulo){
     servoV.detach();
   }
   
+void mover_Horizontal(int angulo){
+    servoH.attach(6);
+    servoH.write(angulo);
+    delay(1000);
+    servoH.detach();
+  }
+  
+void mover_Pinza(int angulo){
+    servoP.attach(3);
+    servoP.write(angulo);
+    delay(1000);
+    servoP.detach();
+  }
