@@ -11,7 +11,90 @@ Servo servoH;
 //pin6 es extension horizontal
   
 void setup() {
-  // put your setup code here, to run once:
+// put your setup code here, to run once:
+  Serial.begin(9600);
+
+  mover_Pinza(43);
+  mover_Base(123);
+  mover_Horizontal(43);
+  mover_Vertical(108);
+  mover_Horizontal(73);
+  mover_Vertical(63);
+  mover_Horizontal(103);
+  mover_Vertical(78);
+  mover_Horizontal(113);
+  mover_Pinza(13);
+  mover_Horizontal(103);
+  mover_Vertical(93);
+  mover_Horizontal(83);
+  mover_Horizontal(63);
+  mover_Base(93);
+  mover_Base(53);
+  mover_Horizontal(83);
+  mover_Vertical(108);
+  mover_Horizontal(103);
+  mover_Vertical(78);
+  mover_Pinza(33);
+  mover_Horizontal(93);
+  mover_Vertical(93);
+  mover_Horizontal(73);
+  mover_Base(93);
+  mover_Base(123);
+  
+  /* segundo movimiento */
+  delay(1000);
+  mover_Vertical(78);
+  mover_Horizontal(83);
+  mover_Vertical(63);
+  mover_Horizontal(103);
+  mover_Vertical(78);
+  mover_Horizontal(113);
+  mover_Pinza(3);
+  mover_Vertical(93);
+  mover_Horizontal(103);
+  mover_Horizontal(83);
+  mover_Vertical(108);
+  mover_Horizontal(73);
+  
+  mover_Base(93);
+  mover_Base(53);
+  mover_Horizontal(93);
+  mover_Vertical(108);
+  mover_Horizontal(103);
+  mover_Vertical(93);
+  mover_Horizontal(106);
+  mover_Pinza(23);
+  mover_Pinza(43);
+  mover_Horizontal(93);
+  mover_Horizontal(83);
+  mover_Vertical(108);
+  mover_Vertical(93);
+  mover_Horizontal(73);
+  mover_Base(93);
+  mover_Base(123);
+
+
+/* Tercer movimiento */
+  delay(1000);
+  mover_Horizontal(73);
+  mover_Horizontal(93);
+  mover_Horizontal(113);
+  mover_Pinza(3);
+  mover_Horizontal(103);
+  mover_Horizontal(83);
+  mover_Vertical(93);
+  mover_Horizontal(73);
+  mover_Base(93);
+  mover_Base(53);
+  mover_Horizontal(83);
+  mover_Horizontal(93);
+  mover_Vertical(108);
+  mover_Horizontal(103);
+  mover_Pinza(43);
+  mover_Horizontal(83);
+  mover_Vertical(108);
+  mover_Horizontal(73);
+ 
  
  
 }
